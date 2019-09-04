@@ -1,7 +1,7 @@
 server:
   port: 80
   
-example.property: "I am the production"     
+example.property: "I am the production, hello"     
 
 spring:
   datasource:
