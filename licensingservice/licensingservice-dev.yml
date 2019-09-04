@@ -1,0 +1,13 @@
+server:
+  port: 80
+  
+dev.example.property: "I am the dev"   
+
+spring:
+  jpa:
+    show-sql: true
+  
+  jackson:
+    serialization:
+      indent-output: true   
+    

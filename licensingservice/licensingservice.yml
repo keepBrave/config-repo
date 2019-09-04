@@ -1,0 +1,9 @@
+server:
+  port: 80
+  
+tracer:
+  property: I am the default
+  
+spring:
+  jpa:
+    show-sql: false
