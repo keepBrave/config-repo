@@ -1,0 +1,9 @@
+server:
+  port: 9100
+  
+tracer:
+  property: I am the default organization
+  
+spring:
+  jpa:
+    show-sql: false
