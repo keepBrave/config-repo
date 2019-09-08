@@ -1,6 +1,4 @@
-server:
-  port: 9100
-  
+
 example.property: "I am the production organization"     
 
 spring:
