@@ -1,0 +1,11 @@
+server:  port: 10086
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:    register-with-eureka: true
+    fetch-registry: true
+    region: beijing
+    availability-zones:      beijing: haidian
+    
+    service-url:        haidian: http://localhost:9999/eureka/        zuul:  ignored-services: "*"  prefix: /api  routes:      licensingservice : /licensing/**     organizationservice: /org/**                spring:  jackson:    serialization:      indent-output: true         
