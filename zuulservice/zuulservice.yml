@@ -1,11 +1,1 @@
-server:  port: 10086
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:    register-with-eureka: true
-    fetch-registry: true
-    region: beijing
-    availability-zones:      beijing: haidian
-    
-    service-url:        haidian: http://localhost:9999/eureka/                     spring:  jackson:    serialization:      indent-output: true         
+#Setting logging levelslogging:    level:      com.netflix: WARN      org.springframework.web: WARN      com.thought: debug   spring:  application:    name: zuulservice  cloud:    config:      enabled: trueeureka:  instance:    preferIpAddress: true  client:    registerWithEureka: true    fetchRegistry: true    serviceUrl:        defaultZone: http://localhost:8761/eureka/                             
