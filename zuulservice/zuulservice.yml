@@ -1,1 +1,1 @@
-spring:  application:    name: zuulservice  cloud:    config:      enabled: true                             
+spring:  application:    name: zuulservice                             
