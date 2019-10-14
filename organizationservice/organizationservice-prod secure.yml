@@ -3,9 +3,9 @@ example.property: "I am the production organization"
 
 spring:
   datasource:
-    url: jdbc:mysql://192.168.99.1:3306/organization_service
+    url: jdbc:mysql://localhost:3306/organization_service
     username: root
-    password: "root"
+    password: "{cipher}a9f260f51fff51209443eaf278d7daf62e8fa6867a5c7cc846cf1a92d2661a1b"
    
   jpa:
     show-sql: true
